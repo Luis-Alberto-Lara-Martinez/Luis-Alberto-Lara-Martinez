@@ -7,7 +7,7 @@
 - ⚡ Fun fact: ...
 
 # Symfony
-## Al descargarme de github
+### Al descargarme de github
 - Es necesario reinstalar las librerias configuradas
 ```bash
 composer install
