@@ -6,10 +6,9 @@
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 
-Comandos de Symfony
-- Al descargarme de github
-  - composer install
-<!---
-Luis-Alberto-Lara-Martinez/Luis-Alberto-Lara-Martinez is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+# Symfony
+## Al descargarme de github
+- Es necesario reinstalar las librerias configuradas
+```bash
+composer install
+```
