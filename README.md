@@ -8,7 +8,7 @@
 
 # Symfony
 ## Ejecutar proyecto descargado de GitHub
-### Es necesario reinstalar las librerias configuradas
+# - Es necesario reinstalar las librerias configuradas
 ```bash
 composer install
 ```
