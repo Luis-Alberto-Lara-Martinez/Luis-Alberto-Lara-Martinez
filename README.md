@@ -6,7 +6,7 @@ Aquí se muestran todos los comandos necesarios para hacer un proyecto de Symfon
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
 ```
 ```bash
-php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+php composer-setup.php
 ```
 ## Ejecutar proyecto descargado de GitHub
 - Es necesario reinstalar las librerias configuradas
