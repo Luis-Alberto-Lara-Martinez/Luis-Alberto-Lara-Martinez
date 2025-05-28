@@ -36,6 +36,32 @@ composer require maker --dev
 ```bash
 composer require doctrine
 ```
+## Comandos útiles para la gestión de la BBDD
+- Primero, hay que poner el archivo .env la siguiente línea:
+```bash
+DATABASE_URL="mysql://root@127.0.0.1:3306/nombreBBDD"
+```
+- Para inicializar la BBDD, con el cmd voy al raíz de mi proyecto, y desde
+ahí escribo el comando. 
+```bash
+php bin/console doctrine:database:create
+```
+- Este comando instala el soporte ORM de doctrine.
+```bash
+composer require doctrine
+```
+## Crear tabla en BBDD
+```bash
+php bin/console make:entity
+```
+## Crear esquema de la BBDD
+```bash
+php bin/console doctrine:schema:create
+```
+## Actualizar esquema de la BBDD
+```bash
+php bin/console doctrine:schema:update --dump-sql --force
+```
 ## Ejecutar proyecto descargado de GitHub
 - Es necesario reinstalar las librerias configuradas
 ```bash
