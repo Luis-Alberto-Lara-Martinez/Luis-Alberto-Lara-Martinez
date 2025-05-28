@@ -27,6 +27,16 @@ composer outdated symfony/*
 ```bash
 composer update symfony/*
 ```
+## Conexión con MySQL
+- Es necesario instalar estos dos comandos:
+  - Este comando ayuda a generar código creando controladores, clases de formulario, etc, para no tener que escribir código repetitivo.
+```bash
+composer require maker --dev
+```
+  - Este comando instala el soporte ORM de doctrine.
+```bash
+composer require doctrine
+```
 ## Ejecutar proyecto descargado de GitHub
 - Es necesario reinstalar las librerias configuradas
 ```bash
