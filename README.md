@@ -29,7 +29,7 @@ composer update symfony/*
 ```
 ## Conexión con MySQL
 - Es necesario instalar estos dos comandos:
-  - Este comando ayuda a generar código creando controladores, clases de formulario, etc, para no tener que escribir código repetitivo.
+Este comando ayuda a generar código creando controladores, clases de formulario, etc, para no tener que escribir código repetitivo.
 ```bash
 composer require maker --dev
 ```
