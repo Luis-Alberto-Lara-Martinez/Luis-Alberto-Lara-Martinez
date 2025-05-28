@@ -18,6 +18,15 @@ cd nombreProyecto
 ```bash
 composer require webapp
 ```
+## Actualizar versión del proyecto
+- Con este comando compruebas si alguna de las dependencias que usa tu proyecto tiene alguna actualización disponible.
+```bash
+composer outdated symfony/*
+```
+- Con este comando instalas las actualizaciones disponibles.
+```bash
+composer update symfony/*
+```
 ## Ejecutar proyecto descargado de GitHub
 - Es necesario reinstalar las librerias configuradas
 ```bash
